@@ -2,8 +2,6 @@
 
 A small, documented REST API built with Node.js and Express. It accepts numbers through `POST /average` and returns the arithmetic average of every valid number submitted during the current server session.
 
-**Assignment ID:** `R280926724P`  
-**Deal name:** `AYU0926PEND01`
 
 ## Features
 
