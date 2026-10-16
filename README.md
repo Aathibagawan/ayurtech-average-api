@@ -223,7 +223,7 @@ ayurtech-average-api/
 
 ## Repository
 
-Public GitHub repository: https://github.com/Aathibagawan/ayurtech-average-api-nodejs
+Public GitHub repository: https://github.com/Aathibagawan/ayurtech-average-api
 
 ## License
 
