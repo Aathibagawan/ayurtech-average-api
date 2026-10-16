@@ -1,0 +1,39 @@
+{
+  "name": "ayurtech-average-api",
+  "version": "1.0.0",
+  "description": "A tested Node.js REST API that returns the running average of submitted numbers.",
+  "private": false,
+  "main": "src/server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch",
+    "client": "node client/request.js",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest-api",
+    "running-average",
+    "jest",
+    "husky",
+    "commitlint"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "husky": "^9.1.7",
+    "jest": "^30.0.5",
+    "supertest": "^7.1.4"
+  }
+}
